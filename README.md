@@ -1,6 +1,6 @@
 ﻿## VKIMImport :boom: (0.1.3)
 
-VKIMImport - это скрипт на Python, для скачивания фотографий из бесед или диалогов интересующего вас собеседника социальной сети [vk.com](https://vk.com)
+VKIMImport — это скрипт на Python, для скачивания фотографий из бесед или диалогов интересующего вас собеседника социальной сети [vk.com](https://vk.com)
 
 ![Fisher](https://raw.githubusercontent.com/dokxpi/VKIMImport/master/publish/cmd.main.py.gif)
 
