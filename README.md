@@ -47,4 +47,3 @@ VKIMexport — это скрипт на Python, для скачивания фо
 *** 
 Остались вопросы?<br/>
 Создайте [issue](https://github.com/dokxpi/VKIMexport/issues) в репозиторий или [свяжитесь](http://dokxpi.github.io) со мной!
-
