@@ -1,0 +1,128 @@
+﻿<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Узнать битность системы онлайн, разрядность ОС, определить 32 или 64 бита ваша операционная система</title>
+        <meta name="description" content="Здесь вы можете определить битность (разрядность) своей операционной системы онлайн. Узнать 32 или 64 бита ваша версия Windows. Моментально определить разрядность ОС бесплатно и без регистрации.">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/dok.css"><!-- dokxpi# -->
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
+        <script><!-- Запрет "выход" из фрейма -->
+            if ((self.parent && !(self.parent === self)) && (self.parent.frames.length != 0)) {
+                self.parent.location = document.location
+            }
+        </script>
+    </head>
+    
+    <body>
+        <header>
+            <div id="logo"><a href="/BitOScheck/">32 или 64 бит?</a>
+            </div>
+        </header>
+         <h1 id="tool">Узнать битность системы онлайн</h1>
+
+        <p class="syngenta">Данная страница, выступает как дополнение к руководству <a href="https://github.com/dokxpi/VKIMexport/#vkimexport-boom-013">VKIMexport</a> и она перенаправит вас, к странице плагина, через:
+            <!--Редирект с визуальным таймером отсчета времени -->
+<b><span id="time"></span></b>
+
+            <script type="text/javascript">
+                var i = 180; //время в сек.
+                function time() {
+                    document.getElementById("time").innerHTML = i; //визуальный счетчик
+                    i--; //уменьшение счетчика
+                    if (i < 0) location.href = "https://github.com/dokxpi/VKIMexport/#vkimexport-boom-013"; //редирект
+                }
+                time();
+                setInterval(time, 1000);
+            </script>сек.</p>
+			
+        <!-- bit_os_js_checker -->
+        <div style="width:728px; margin: 0 auto;">
+            <script>
+                var unknown_word = "Не определено";
+                var os_word = "Операционная система:";
+            </script>
+            <script type="text/javascript" src="instruments/bit_os_js_checker/check.js"></script>
+            <style>
+                #info {
+                    text-align: center;
+                }
+                #bit_info_title {
+                    font-size: 35px;
+                    margin-bottom: -4;
+                }
+                #bit_info {
+                    font-size: 80px;
+                    display: none;
+                }
+                #os_info {
+                    display: none;
+                }
+                #progress_title {
+                    font-size: 35px;
+                    margin-bottom: 15px;
+                    color: #808080;
+                    margin-top: 10px;
+                }
+                #progressBar {
+                    width: 400px;
+                    height: 15px;
+                    border: 1px solid #111;
+                    background-color: #292929;
+                    margin: 0 auto;
+                    margin-bottom: 19px;
+                }
+                #progressBar div {
+                    height: 100%;
+                    color: #fff;
+                    text-align: right;
+                    line-height: 22px;
+                    /* same as #progressBar height if we want text middle aligned */
+                    width: 0;
+                    background-color: #0099ff;
+                }
+                .default {
+                    background: #292929;
+                    border: 1px solid #111;
+                    border-radius: 5px;
+                    overflow: hidden;
+                    box-shadow: 0 0 5px #333;
+                }
+                .default div {
+                    background-color: #1a82f7;
+                    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0099FF), to(#1a82f7));
+                    background: -webkit-linear-gradient(top, #0099FF, #1a82f7);
+                    background: -moz-linear-gradient(top, #0099FF, #1a82f7);
+                    background: -ms-linear-gradient(top, #0099FF, #1a82f7);
+                    background: -o-linear-gradient(top, #0099FF, #1a82f7);
+                }
+            </style>
+            <div id="info">
+                <div id="bit_info_title">Разрядность вашей системы:</div>
+                <div id="bit_info"></div>
+                <div id="progress_title">Определяем...</div>
+                <div id="progressBar" class="default">
+                    <div></div>
+                </div>
+                <div id="os_info"></div>
+            </div>
+            <div style="margin-top: 10px;"></div>
+            <div style="width: 100%; height: 40px;"></div>
+        </div>
+        <!-- end// bit_os_js_checker -->
+        <div id="hrt">
+            <footer>
+                <div id="copyright"><span id="copyright_text">Copyright © <a alt="Артур Нечипурук" href="http://dokxpi.github.io/">Arthur Nechipuruk</a> 2015</span>
+                </div>
+            </footer>
+			
+			
+			
+			<!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter28778091 = new Ya.Metrika({id:28778091, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/28778091" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->	
+    </body>
+
+</html>
+
