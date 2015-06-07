@@ -1,0 +1,29 @@
+﻿  body {
+      min-width: 750px;
+      /* Максимальная ширина страницы в пикселах */
+      max-width: 950px;
+      /* Максимальная ширина страницы в пикселах */
+      margin: auto;
+      /* Выравниваем таблицу по центру окна  */
+  }
+  p.syngenta {
+      border: 1px solid #008000;
+      padding: 10px;
+      width: 70%;
+      margin: auto;
+      /* Выравниваем таблицу по центру окна  */
+      text-align: center;
+  }
+  
+  
+  
+  #tool {
+      text-align: center;
+      font-size: 30px !important;
+  }
+  #hrt {
+      height: 100px;
+      width: 100%;
+      padding-top: 10px;
+      border-top: 1px solid #CCCCCC;
+  }
