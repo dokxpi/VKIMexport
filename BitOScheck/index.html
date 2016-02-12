@@ -10,14 +10,13 @@
         <link rel="stylesheet" href="css/dok.css"><!-- dokxpi# -->
         <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
         <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
-        <script><!-- Запрет "выход" из фрейма -->
-            if ((self.parent && !(self.parent === self)) && (self.parent.frames.length != 0)) {
-                self.parent.location = document.location
-            }
-        </script>
     </head>
     
     <body>
+ <!-- framekiller --><script type="text/javascript">
+  if (top.location != location) top.location.href = location.href;
+ </script>
+
         <header>
             <div id="logo"><a href="/VKIMexport/BitOScheck/">32 или 64 бит?</a>
             </div>
